@@ -1,0 +1,103 @@
+img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 15px
+}  
+
+
+.car-image {
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    border-radius: 15px;
+}
+
+.house-image {
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    border-radius: 15px;
+}
+
+
+div form {
+    width: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 30px;
+    background-color: #222;
+    border-radius: 15px;
+}
+
+div form h2 {
+    color: white;
+    text-align: center;
+}
+
+div form label {
+    color: white;
+    display: block;
+    margin-top: 15px;
+}
+
+div form input,
+div form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 2px solid #3498db;
+    border-radius: 8px;
+}
+
+.form-container button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #345bdb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+body {
+    background-color: #3e1707;
+    color: rgb(69, 178, 14);
+    font-family: Arial, sans-serif
+}
+
+div table {
+ 
+    background-color: #10a96260;
+    width: 4000;
+    height: 200px;
+    border: #2222221d;
+    font-style: italic;
+
+}
+
+header {
+    background-color: #084404;
+    color: rgba(78, 184, 12, 0.838);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: orange;
+}

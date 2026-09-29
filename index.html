@@ -1,18 +1,42 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MY LISTS</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Shopping list of my favorite foods</h1>
+    <header>
+      <span>My Shopping list</span>
+      <nav>
+        <li><a href="#home">home</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </nav>
+    </header>
+    <br />
+
     <ul>
       <li>rice</li>
       <li>yam</li>
       <li>spaghetti</li>
     </ul>
+    <hr />
+    <p>
+      Recipe for cooking rice.
+      <a href="rice.html">Click here to view the recipe</a>
+    </p>
 
+    <p>
+      Recipe for cooking yam.
+      <a href="yam.html">Click here to view the recipe</a>
+    </p>
+
+    <p>
+      Recipe for cooking spaghetti.
+      <a href="spaghetti.html">Click here to view the recipe</a>
+    </p>
     <h2>To-Do List of today</h2>
     <ol>
       <li>wake up and get ready</li>
@@ -35,5 +59,87 @@
       <li>PUBG Mobile</li>
       <li>Grand Theft Auto V</li>
     </ol>
+    <hr />
+    <div>
+      <table border="3">
+        <tr>
+          <th colspan="4">
+            FOODS&nbsp;&nbsp; COUNTRIES&nbsp;&nbsp; &
+            &nbsp;&nbsp;&nbsp;&nbsp;GAMES
+          </th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Food</td>
+          <td>Rice</td>
+          <td>30,000</td>
+        </tr>
+
+        <tr>
+          <td>2</td>
+          <td>Countries</td>
+          <td>South Korea</td>
+          <td>5,000,000</td>
+        </tr>
+
+        <tr>
+          <td>3</td>
+          <td>Games</td>
+          <td>Call of Duty</td>
+          <td>50,000</td>
+        </tr>
+      </table>
+    </div>
+    <br />
+
+    <p>
+      <img
+        src="image/msgId1787484497816.jpg"
+        alt="Gym"
+        width="300"
+        height="500"
+      />
+    </p>
+    <br />
+
+    <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfs8Bv9CHh0Y7jM9qBV6lTkIruXqbDV2ADmZljQRUXFQ&s=10"
+      alt="Car"
+      class="car-image"
+    />
+    <br /><br />
+    <img src="image/Untitled.png" alt="house" class="house-image" />
+    <br />
+
+    <div>
+      <form>
+        <label for="Name"> Name:</label>
+        <input type="text" name="" id="Name" placeholder="Enter your name" />
+        <br />
+        <br />
+        <label for="Address"> Address: </label>
+        <input
+          type="text"
+          name=""
+          id="Address"
+          placeholder="Enter your addresss"
+        />
+        <br />
+        <br />
+        <label for="Email"> Email: </label>
+        <input type="email" name="" id="Email" placeholder="Enter your emall" />
+        <br />
+      </form>
+    </div>
+    <address>
+      <p>
+        <a href="mailto:Felixprince500@gmail.com"> Felixprince500@gmail.com</a>
+      </p>
+      <p>123 Main Street, ogidi, Nigeria</p>
+    </address>
+
+    <footer>
+      <p>&copy; 2026 All rights reserved.</p>
+    </footer>
   </body>
 </html>
